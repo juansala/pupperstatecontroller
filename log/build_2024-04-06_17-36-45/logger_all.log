@@ -1,0 +1,102 @@
+[5.587s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pupperstatecontroller']
+[5.588s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pupperstatecontroller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9bc078b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9bfb70d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9bfb70d0>>)
+[5.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.851s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pupper1/pupper_ws/src/pupperstatecontroller'
+[5.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.917s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'pupperstatecontroller'
+[5.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.574s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/pupper1/pupper_ws/install
+[6.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[6.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.171s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'cmake_args' from command line to 'None'
+[7.171s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'cmake_target' from command line to 'None'
+[7.171s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.172s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'cmake_clean_cache' from command line to 'False'
+[7.172s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'cmake_clean_first' from command line to 'False'
+[7.172s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'cmake_force_configure' from command line to 'False'
+[7.172s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'ament_cmake_args' from command line to 'None'
+[7.172s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'catkin_cmake_args' from command line to 'None'
+[7.172s] Level 5:colcon.colcon_core.verb:set package 'pupperstatecontroller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.172s] DEBUG:colcon.colcon_core.verb:Building package 'pupperstatecontroller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller', 'merge_install': False, 'path': '/home/pupper1/pupper_ws/src/pupperstatecontroller', 'symlink_install': False, 'test_result_base': None}
+[7.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.328s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pupper1/pupper_ws/src/pupperstatecontroller' with build type 'ament_cmake'
+[7.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pupper1/pupper_ws/src/pupperstatecontroller'
+[7.440s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pupper1/pupper_ws/install/launch_testing_examples:/home/pupper1/pupper_ws/install/examples_rclpy_pointcloud_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_subscriber:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_service:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_client:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_server:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_client:/home/pupper1/pupper_ws/install/examples_rclpy_guard_conditions:/home/pupper1/pupper_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller -- -j4 -l4
+[7.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pupper1/pupper_ws/install/launch_testing_examples:/home/pupper1/pupper_ws/install/examples_rclpy_pointcloud_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_subscriber:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_service:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_client:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_server:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_client:/home/pupper1/pupper_ws/install/examples_rclpy_guard_conditions:/home/pupper1/pupper_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller -- -j4 -l4
+[8.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pupper1/pupper_ws/install/launch_testing_examples:/home/pupper1/pupper_ws/install/examples_rclpy_pointcloud_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_subscriber:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_service:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_client:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_server:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_client:/home/pupper1/pupper_ws/install/examples_rclpy_guard_conditions:/home/pupper1/pupper_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller
+[8.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pupperstatecontroller)
+[8.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pupper1/pupper_ws/install/launch_testing_examples:/home/pupper1/pupper_ws/install/examples_rclpy_pointcloud_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_subscriber:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_service:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_publisher:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_client:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_server:/home/pupper1/pupper_ws/install/examples_rclpy_minimal_action_client:/home/pupper1/pupper_ws/install/examples_rclpy_guard_conditions:/home/pupper1/pupper_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/pupper1/pupper_ws/src/pupperstatecontroller/build/pupperstatecontroller
+[8.333s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller' for CMake module files
+[8.336s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller' for CMake config files
+[8.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('pupperstatecontroller', 'cmake_prefix_path')
+[8.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/hook/cmake_prefix_path.ps1'
+[8.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/hook/cmake_prefix_path.dsv'
+[8.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/hook/cmake_prefix_path.sh'
+[8.435s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/bin'
+[8.435s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/lib/pkgconfig/pupperstatecontroller.pc'
+[8.436s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/lib/python3.10/site-packages'
+[8.437s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/bin'
+[8.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.ps1'
+[8.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.dsv'
+[8.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.sh'
+[8.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.bash'
+[8.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.zsh'
+[8.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/colcon-core/packages/pupperstatecontroller)
+[8.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pupperstatecontroller)
+[8.860s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller' for CMake module files
+[8.864s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller' for CMake config files
+[8.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('pupperstatecontroller', 'cmake_prefix_path')
+[8.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/hook/cmake_prefix_path.ps1'
+[8.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/hook/cmake_prefix_path.dsv'
+[8.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/hook/cmake_prefix_path.sh'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/bin'
+[8.961s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/lib/pkgconfig/pupperstatecontroller.pc'
+[8.962s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/lib/python3.10/site-packages'
+[8.963s] Level 1:colcon.colcon_core.environment:checking '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/bin'
+[9.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.ps1'
+[9.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.dsv'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.sh'
+[9.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.bash'
+[9.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/pupperstatecontroller/package.zsh'
+[9.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pupper1/pupper_ws/src/pupperstatecontroller/install/pupperstatecontroller/share/colcon-core/packages/pupperstatecontroller)
+[9.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.064s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.064s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.305s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/local_setup.ps1'
+[9.403s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/_local_setup_util_ps1.py'
+[9.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/setup.ps1'
+[9.494s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/local_setup.sh'
+[9.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/_local_setup_util_sh.py'
+[9.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/setup.sh'
+[9.585s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/local_setup.bash'
+[9.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/setup.bash'
+[9.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/local_setup.zsh'
+[9.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pupper1/pupper_ws/src/pupperstatecontroller/install/setup.zsh'
